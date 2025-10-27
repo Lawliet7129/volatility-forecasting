@@ -1,0 +1,27 @@
+name: vol
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - arch
+  - scikit-learn
+  - xgboost
+  - optuna
+  - shap
+  - plotly
+  - pyarrow
+  - duckdb
+  - pyspark
+  - ipykernel
+  - jupyterlab
+  - tqdm
+  - black
+  - ruff
+  - nbstripout
+  - pip
+  - pip:
+      - yfinance
+      - pandas-datareader
