@@ -1,0 +1,26 @@
+# data (keep local)
+data/**
+!data/.gitkeep
+
+# models & plots
+artifacts/**
+*.pkl
+*.joblib
+*.json
+
+# environments
+.env
+.venv/
+venv/
+.envrc
+
+# python cache
+__pycache__/
+*.pyc
+
+# parquet/feather just in case
+*.parquet
+*.feather
+
+# notebooks noise
+.ipynb_checkpoints/
