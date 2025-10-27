@@ -60,7 +60,7 @@ def main():
                 print(f"[{i}/{len(files)}] cleaned {t}: {n} rows")
         except Exception as e:
             fail += 1
-            print(f"⚠️  {os.path.basename(f)} -> {e}")
+            print(f"{os.path.basename(f)} -> {e}")
     print(f"Done. Cleaned={ok}, Failed={fail}. Output → {BRONZE}/")
 
 if __name__ == "__main__":
