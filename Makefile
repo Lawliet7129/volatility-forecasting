@@ -8,7 +8,7 @@ setup env:
 # 1) Download and clean data
 data:
 	python src/data/sp500_list.py
-	python src/data/download_yfinance_full.py
+	python src/data/download_yfinance.py
 	python src/data/clean_prices_csvs.py
 	python src/data/assemble_bronze_all.py
 	python src/data/download_fred.py
