@@ -1,0 +1,5 @@
+start: "2015-01-01"
+end:   "2025-10-01"
+fred_series: [FEDFUNDS, CPIAUCSL, DGS10, UNRATE]
+vix_ticker: "^VIX"
+sp500_list_csv: "conf/sp500_snapshot.csv"
