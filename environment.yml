@@ -21,6 +21,9 @@ dependencies:
   - black
   - ruff
   - nbstripout
+  - matplotlib
+  - plotly
+  - seaborn
   - pip
   - pip:
       - yfinance
